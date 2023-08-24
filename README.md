@@ -30,5 +30,6 @@ The dataset contains numerous features related to loans, such as `loan_amnt`, `i
 - My belief was that the Logistic Regression might perform better due
   to possible linear relationships in the data, however the dataset may have
   been more complex than I initially thought.
-- Post-scaling, both models witnessed performance enhancements. Specifically, while the Random Forest model saw a minimal uptick in performance, the Logistic Regression model's accuracy surged by 16% on the test dataset.
-- The improvements, especially in the Logistic Regression model, were anticipated. By ensuring all features operate on a consistent scale, algorithms can more effectively learn the underlying patterns, leading to better predictions.
+- Post-scaling, only the Logistic Regression model's accuracy increased, with
+  an increase of 16% on the test dataset. 
+- The improvements was anticipated. By ensuring all features operate on a consistent scale, algorithms can more effectively learn the underlying patterns, leading to better predictions.
